@@ -1,5 +1,15 @@
+Overview
 
-New Features:
+The original idea comes from JCommander which provides a plug-in can call out system shell menu implemented with MFC, 
+but the plug-in only worked for JCommander, I copied some codes and release first version based on JCommander 
+
+Features:
+1. Add context menu action in "Package Explorer View", to call out the system context menu corresponding to the selected resource (win32/win64 os only)
+
+2. Copy the resource's name, full path, or parent path into clipboard. 
+
+
+ChangeLogs:
 
 version 1.0.4
 1. add DateTimeVariableResolver
