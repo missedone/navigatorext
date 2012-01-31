@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.googlecode.eclipse.navigatorext.features_1.1.2.201201311432.jar" id="com.googlecode.eclipse.navigatorext.features" version="1.1.2.201201311432">
+      <category name="navigatorext"/>
+   </feature>
+   <category-def name="navigatorext" label="Navigator Extension">
+      <description>
+         A eclipse navigator extension, provide shortcut to copy resources path and call out its system context menu
+      </description>
+   </category-def>
+</site>

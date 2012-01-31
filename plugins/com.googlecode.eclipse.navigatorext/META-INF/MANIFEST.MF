@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Localization: plugin
-Bundle-Name: Navigatorext
+Bundle-Name: %bundle.name
 Bundle-SymbolicName: com.googlecode.eclipse.navigatorext;singleton:=true
 Bundle-Version: 1.1.2.qualifier
 Bundle-Activator: com.googlecode.eclipse.navigatorext.Activator
-Bundle-Vendor: Nick.Tan
+Bundle-Vendor: %bundler.provider
 Bundle-NativeCode: systemshell.dll;
  osname=win32;
  osname="windows 7";
