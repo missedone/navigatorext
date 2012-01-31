@@ -3,12 +3,14 @@ Bundle-ManifestVersion: 2
 Bundle-Localization: plugin
 Bundle-Name: Navigatorext
 Bundle-SymbolicName: com.googlecode.eclipse.navigatorext;singleton:=true
-Bundle-Version: 1.1.0.qualifier
+Bundle-Version: 1.1.2.qualifier
 Bundle-Activator: com.googlecode.eclipse.navigatorext.Activator
 Bundle-Vendor: Nick.Tan
 Bundle-NativeCode: systemshell.dll;
  osname=win32;
  osname="windows 7";
+ osname="Windows Vista";
+ processor=x86-64;
  processor=x86
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
@@ -22,4 +24,3 @@ Require-Bundle: org.eclipse.ui,
  org.junit4
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
-
