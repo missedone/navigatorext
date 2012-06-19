@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<fragment>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <viewerContribution
+            id="com.bluebamboo.mylyn.tasks.bugs.console"
+            targetID="javaStackTraceConsole.#ContextMenu">
+         <action
+               enablesFor="*"
+               label="Report as Bug"
+               class="com.googlecode.eclipse.mylyn.tasks.action.ReportAsBugAction"
+               icon="icons/etool16/task-repository-new.gif"
+               menubarPath="additions"
+               id="com.bluebamboo.mylyn.tasks.bugs.action.reportAsBug"/>
+      </viewerContribution>
+      <viewerContribution
+            targetID="org.eclipse.debug.ui.ProcessConsoleType.#ContextMenu"
+            id="com.bluebamboo.mylyn.tasks.bugs.console">
+         <action
+               enablesFor="*"
+               label="Report as Bug"
+               class="com.googlecode.eclipse.mylyn.tasks.action.ReportAsBugAction"
+               icon="icons/etool16/task-repository-new.gif"
+               menubarPath="additions"
+               id="com.bluebamboo.mylyn.tasks.bugs.action.reportAsBug"/>
+      </viewerContribution>
+      <viewerContribution
+            targetID="org.eclipse.ui.console.ConsoleView.#ContextMenu"
+            id="com.bluebamboo.mylyn.tasks.bugs.console">
+         <action
+               enablesFor="*"
+               label="Report as Bug"
+               class="com.googlecode.eclipse.mylyn.tasks.action.ReportAsBugAction"
+               icon="icons/etool16/task-repository-new.gif"
+               menubarPath="additions"
+               id="com.bluebamboo.mylyn.tasks.bugs.action.reportAsBug"/>
+      </viewerContribution>
+   </extension>
+
+</fragment>

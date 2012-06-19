@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='com.googlecode.eclipse.navigatorext' version='1.1.2.201202020829'>
+    <properties size='6'>
+      <property name='artifact.size' value='201867'/>
+      <property name='download.size' value='201867'/>
+      <property name='download.md5' value='77c12e1d6f13931fb5fc21a981f783be'/>
+      <property name='maven-groupId' value='com.googlecode.eclipse'/>
+      <property name='maven-artifactId' value='com.googlecode.eclipse.navigatorext'/>
+      <property name='maven-version' value='1.1.2-SNAPSHOT'/>
+    </properties>
+  </artifact>
+</artifacts>
