@@ -31,7 +31,7 @@ public abstract class AbstractOpenAction
     implements IViewActionDelegate {
 
     /** for actions with views */
-    public static final String ACTION_REPORT_AS_BUG = "com.bluebamboo.mylyn.tasks.bugs.action.reportAsBug";  //$NON-NLS-1$
+    public static final String ACTION_REPORT_AS_BUG = "com.googlecode.eclipse.mylyn.tasks.action.reportAsBug";  //$NON-NLS-1$
     private IViewPart viewPart;
 
     public AbstractOpenAction() {

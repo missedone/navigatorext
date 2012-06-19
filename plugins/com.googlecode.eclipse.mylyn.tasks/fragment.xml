@@ -4,7 +4,7 @@
    <extension
          point="org.eclipse.ui.popupMenus">
       <viewerContribution
-            id="com.bluebamboo.mylyn.tasks.bugs.console"
+            id="com.googlecode.eclipse.mylyn.tasks.console"
             targetID="javaStackTraceConsole.#ContextMenu">
          <action
                enablesFor="*"
@@ -12,29 +12,29 @@
                class="com.googlecode.eclipse.mylyn.tasks.action.ReportAsBugAction"
                icon="icons/etool16/task-repository-new.gif"
                menubarPath="additions"
-               id="com.bluebamboo.mylyn.tasks.bugs.action.reportAsBug"/>
+               id="com.googlecode.eclipse.mylyn.tasks.action.reportAsBug"/>
       </viewerContribution>
       <viewerContribution
             targetID="org.eclipse.debug.ui.ProcessConsoleType.#ContextMenu"
-            id="com.bluebamboo.mylyn.tasks.bugs.console">
+            id="com.googlecode.eclipse.mylyn.tasks.console">
          <action
                enablesFor="*"
                label="Report as Bug"
                class="com.googlecode.eclipse.mylyn.tasks.action.ReportAsBugAction"
                icon="icons/etool16/task-repository-new.gif"
                menubarPath="additions"
-               id="com.bluebamboo.mylyn.tasks.bugs.action.reportAsBug"/>
+               id="com.googlecode.eclipse.mylyn.tasks.action.reportAsBug"/>
       </viewerContribution>
       <viewerContribution
             targetID="org.eclipse.ui.console.ConsoleView.#ContextMenu"
-            id="com.bluebamboo.mylyn.tasks.bugs.console">
+            id="com.googlecode.eclipse.mylyn.tasks.console">
          <action
                enablesFor="*"
                label="Report as Bug"
                class="com.googlecode.eclipse.mylyn.tasks.action.ReportAsBugAction"
                icon="icons/etool16/task-repository-new.gif"
                menubarPath="additions"
-               id="com.bluebamboo.mylyn.tasks.bugs.action.reportAsBug"/>
+               id="com.googlecode.eclipse.mylyn.tasks.action.reportAsBug"/>
       </viewerContribution>
    </extension>
 
