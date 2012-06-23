@@ -8,6 +8,9 @@ Features:
 
 2. Copy the resource's name, full path, or parent path into clipboard. 
 
+UpdateSite:
+https://sourceforge.net/projects/bluetools/files/navigatorext/updatesite/nax_1.1.2.201201311435/
+
 
 ChangeLogs:
 version 1.1.2
