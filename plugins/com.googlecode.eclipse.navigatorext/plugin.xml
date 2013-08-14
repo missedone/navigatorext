@@ -76,15 +76,6 @@
       </key>
    </extension>
    <extension
-         point="org.eclipse.core.variables.dynamicVariables">
-      <variable
-            description="get the current system date time, a optional argument is used to specify the datetime patter, default as &quot;yyyyMMdd&quot;"
-            name="datetime"
-            resolver="com.googlecode.eclipse.navigatorext.var.DateTimeVariableResolver"
-            supportsArgument="true">
-      </variable>
-   </extension>
-   <extension
          point="org.eclipse.ui.menus">
       <menuContribution
             locationURI="popup:org.eclipse.ui.popup.any">
@@ -171,15 +162,6 @@
          </command>
       </menuContribution>
    </extension>
-   <!--
-   <extension
-         point="org.eclipse.ui.systemSummarySections">
-      <section
-            class="com.googlecode.eclipse.ThreadDumpSection"
-            sectionTitle="Thread Dump">
-      </section>
-   </extension>
-   -->
    <extension
          point="org.eclipse.ui.preferencePages">
       <page
