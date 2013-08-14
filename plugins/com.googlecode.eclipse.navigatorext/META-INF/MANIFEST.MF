@@ -8,8 +8,8 @@ Bundle-Activator: com.googlecode.eclipse.navigatorext.Activator
 Bundle-Vendor: %bundler.provider
 Bundle-NativeCode: systemshell.dll;
  osname=win32;
- osname="windows 7";
- osname="Windows Vista";
+ osname=Windows 8;
+ osname=Windows 7;
  processor=x86-64;
  processor=x86
 Require-Bundle: org.eclipse.ui,
