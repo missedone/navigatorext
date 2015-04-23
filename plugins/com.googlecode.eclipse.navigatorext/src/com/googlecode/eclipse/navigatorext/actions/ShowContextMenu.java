@@ -94,7 +94,7 @@ public class ShowContextMenu extends AbstractHandler implements IViewActionDeleg
         if ("Windows Vista".equalsIgnoreCase(os) || "Windows 7".equalsIgnoreCase(os)) {
             String target = Activator.getDefault().getTarget();
             if (target.indexOf("{0}") == -1) {
-                target = target.trim() + " {0}";
+                target = target.trim() + " \"{0}\"";
             }
             try {
                 Runtime.getRuntime().exec(MessageFormat.format(target, (Object[]) files));

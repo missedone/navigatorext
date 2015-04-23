@@ -114,7 +114,7 @@ public class Activator extends AbstractUIPlugin {
      */
     private void initializeDefaults() {
         String executable = "ShellContextMenu.exe";
-        String params = " 10000 {0}";
+        String params = " 10000 \"{0}\"";
         String shell = "";
         if (!System.getProperty("os.name").startsWith("Windows")) {
             executable = "scm";
