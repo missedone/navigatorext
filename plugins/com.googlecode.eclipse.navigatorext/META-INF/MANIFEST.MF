@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Localization: plugin
 Bundle-Name: %bundle.name
 Bundle-SymbolicName: com.googlecode.eclipse.navigatorext;singleton:=true
-Bundle-Version: 1.1.3.qualifier
+Bundle-Version: 1.1.4.qualifier
 Bundle-Activator: com.googlecode.eclipse.navigatorext.Activator
 Bundle-Vendor: %bundler.provider
 Bundle-NativeCode: systemshell.dll;
