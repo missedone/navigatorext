@@ -10,7 +10,7 @@ but the plug-in only worked for JCommander, I copied some codes and release firs
 2. Copy the resource's name, full path, or parent path into clipboard. 
 
 ## UpdateSite
-`https://raw.github.com/missedone/navigatorext/v1.1.3/site`
+`https://raw.github.com/missedone/navigatorext/v1.1.3.1/site`
 
 
 ## ChangeLogs
