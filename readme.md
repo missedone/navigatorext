@@ -1,4 +1,5 @@
-Overview
+Eclipse Navigator Extension
+====
 
 The original idea comes from JCommander which provides a plug-in can call out system shell menu implemented with MFC, 
 but the plug-in only worked for JCommander, I copied some codes and release first version based on JCommander 
@@ -9,10 +10,14 @@ Features:
 2. Copy the resource's name, full path, or parent path into clipboard. 
 
 UpdateSite:
-https://sourceforge.net/projects/bluetools/files/navigatorext/updatesite/nax_1.1.2.201201311435/
+`https://raw.github.com/missedone/navigatorext/v1.1.3/site`
 
 
 ChangeLogs:
+version 1.1.3
+* #1. Failed to install (Eclipse Kepler)
+* #2. Doesn't work with folders with spaces in them
+
 version 1.1.2
 1. now support x64 os
 
